@@ -1,0 +1,20 @@
+.article {
+  & .title {
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    font-weight: 800;
+    font-size: x-large;
+  }
+  
+  & .content {
+    margin-bottom: 2rem;
+    font-size: 1.2em;
+
+  }
+  
+  & .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
